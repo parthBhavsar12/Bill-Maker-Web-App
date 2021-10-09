@@ -1,0 +1,95 @@
+*{
+    font-family: 'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+}
+body{
+    background-color: lightyellow;
+    text-align: center;
+    margin-bottom: 200px;
+}
+h1{
+    text-align: center;
+    margin: 60px;
+    color: #6666c7;
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]{
+    width: 400px;
+    height: 40px;
+    margin: 0px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    padding-left: 10px;
+}
+input[type="checkbox"]{
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    padding-left: 10px;
+}
+input[type="submit"]{
+    margin: 30px 0px;
+    border-radius: 5px;
+    border: none;
+    color: #09085e;
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+    height: 40px;
+    background-color: lightyellow;
+    box-shadow: inset 2px 2px 25px blue;
+}
+input[type="submit"]:hover{
+    border: 2px solid #09085e;
+}
+table{
+    margin: auto;
+    border: 1px solid red;
+    box-shadow: 5px 5px 20px red;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
+td{
+    text-align: center;
+}
+p{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+marquee{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #ca0808;
+    background-color: yellow;
+    padding: 20px;
+}
+a[href="prac32.php"],a[href="print_bill.php"],a[onclick='history.back()']{
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #09085e;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 400px;
+    height: 40px;
+    background-color: lightyellow;
+    box-shadow: inset 2px 2px 25px blue;
+}
+a[href="print_bill.php"]{
+    margin-top: -20px;
+}
+a[href="prac32.php"]:hover,a[href="print_bill.php"]:hover{
+    border: 2px solid #09085e;
+}
